@@ -1,0 +1,21 @@
+{
+  "name": "@juicyarts/cm-discovery-semrel-foo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "huess <huess@juicyarts.de>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juicyarts/cm-discovery-semrel.git",
+    "directory": "packages/foo"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
+  },
+}
