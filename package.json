@@ -1,12 +1,24 @@
 {
-  "name": "cm-discovery-semrel",
-  "version": "1.0.0",
+  "name": "@juicyarts/cm-discovery-semrel",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "huess <huess@juicyarts.de>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juicyarts/cm-discovery-semrel.git"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  }
 }
