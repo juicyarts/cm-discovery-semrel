@@ -33,4 +33,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pnpm semantic-release
+          pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo
