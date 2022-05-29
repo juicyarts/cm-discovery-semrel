@@ -32,7 +32,8 @@
       "@semantic-release/npm",
       "@semantic-release/git",
       "@semantic-release/changelog"
-    ]
+    ],
+    "debug": true
   },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
