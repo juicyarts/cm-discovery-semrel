@@ -13,6 +13,15 @@ Follow the [guide](https://github.com/semantic-release/semantic-release/blob/mas
 
 ## Usage
 
+### Using Conventional Commits
+
+- Create a new branch, apply your changes and commit using [conventional commit](https://intuit.github.io/auto/docs/generated/conventional-commits). Using [commitizen](https://github.com/commitizen/cz-cli) is highly recommended!
+
+- Push your branch to the remote and open a merge/pull request.
+
+- if your branch contains any commit messages that make a version bump reasonable (feat, fix, breaking change)
+
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -32,3 +41,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
