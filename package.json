@@ -38,6 +38,7 @@
       "@semantic-release/git",
       "@semantic-release/github"
     ],
+    "extends": "semantic-release-monorepo",
     "debug": true
   },
   "dependencies": {
